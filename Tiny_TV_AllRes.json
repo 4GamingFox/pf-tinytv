@@ -1,0 +1,17 @@
+{
+  "name": "Tiny TV (All Res)",
+  "type": "tv",
+  "sources": [
+    {"source": "WEB-DL", "resolution": "480p", "min_size_mb": 100, "max_size_mb": 300, "cutoff": "480p WEB-DL", "score": 100},
+    {"source": "WEB-DL", "resolution": "720p", "min_size_mb": 200, "max_size_mb": 400, "cutoff": "720p WEB-DL", "score": 110},
+    {"source": "WEB-DL", "resolution": "1080p", "min_size_mb": 250, "max_size_mb": 500, "cutoff": "1080p WEB-DL", "score": 120},
+    {"source": "HDTV", "resolution": "720p", "min_size_mb": 200, "max_size_mb": 400, "cutoff": "720p HDTV", "score": 90},
+    {"source": "HDTV", "resolution": "1080p", "min_size_mb": 250, "max_size_mb": 500, "cutoff": "1080p WEB-DL", "score": 95},
+    {"source": "BluRay", "resolution": "480-1080p", "min_size_mb": 0, "max_size_mb": 0, "cutoff": "DISABLED", "score": 0},
+    {"source": "Remux", "resolution": "any", "min_size_mb": 0, "max_size_mb": 0, "cutoff": "DISABLED", "score": 0}
+  ],
+  "preferred_words": ["WEB-DL","HDTV"],
+  "must_not_contain": ["BluRay","Remux","10bit","HEVC","x265"],
+  "season_pack": "single_episode",
+  "cutoff": "1080p WEB-DL"
+}

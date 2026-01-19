@@ -1,0 +1,14 @@
+{
+  "name": "Tiny Movies (1080p Small)",
+  "type": "movie",
+  "sources": [
+    {"source": "WEB-DL", "resolution": "720p", "min_size_mb": 700, "max_size_mb": 1200, "cutoff": "1080p WEB-DL", "score": 100},
+    {"source": "WEB-DL", "resolution": "1080p", "min_size_mb": 1000, "max_size_mb": 2500, "cutoff": "1080p WEB-DL", "score": 120},
+    {"source": "HDRip", "resolution": "1080p", "min_size_mb": 700, "max_size_mb": 1800, "cutoff": "1080p WEB-DL", "score": 90},
+    {"source": "BluRay", "resolution": "any", "min_size_mb": 0, "max_size_mb": 0, "cutoff": "DISABLED", "score": 0},
+    {"source": "Remux", "resolution": "any", "min_size_mb": 0, "max_size_mb": 0, "cutoff": "DISABLED", "score": 0}
+  ],
+  "preferred_words": ["WEB-DL","HDRip"],
+  "must_not_contain": ["BluRay","Remux","4K","HEVC","x265"],
+  "cutoff": "1080p WEB-DL"
+}
