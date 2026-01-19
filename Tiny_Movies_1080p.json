@@ -1,14 +1,50 @@
 {
+  "id": 2,
   "name": "Tiny Movies (1080p Small)",
   "type": "movie",
-  "sources": [
-    {"source": "WEB-DL", "resolution": "720p", "min_size_mb": 700, "max_size_mb": 1200, "cutoff": "1080p WEB-DL", "score": 100},
-    {"source": "WEB-DL", "resolution": "1080p", "min_size_mb": 1000, "max_size_mb": 2500, "cutoff": "1080p WEB-DL", "score": 120},
-    {"source": "HDRip", "resolution": "1080p", "min_size_mb": 700, "max_size_mb": 1800, "cutoff": "1080p WEB-DL", "score": 90},
-    {"source": "BluRay", "resolution": "any", "min_size_mb": 0, "max_size_mb": 0, "cutoff": "DISABLED", "score": 0},
-    {"source": "Remux", "resolution": "any", "min_size_mb": 0, "max_size_mb": 0, "cutoff": "DISABLED", "score": 0}
-  ],
-  "preferred_words": ["WEB-DL","HDRip"],
-  "must_not_contain": ["BluRay","Remux","4K","HEVC","x265"],
-  "cutoff": "1080p WEB-DL"
+  "cutoff": "1080p WEB-DL",
+  "preferredWords": ["WEB-DL", "HDRip"],
+  "mustNotContain": ["BluRay", "Remux", "4K", "HEVC", "x265"],
+  "qualities": [
+    {
+      "id": 201,
+      "source": "WEB-DL",
+      "resolution": "720p",
+      "minSizeMB": 700,
+      "maxSizeMB": 1200,
+      "score": 100
+    },
+    {
+      "id": 202,
+      "source": "WEB-DL",
+      "resolution": "1080p",
+      "minSizeMB": 1000,
+      "maxSizeMB": 2500,
+      "score": 120
+    },
+    {
+      "id": 203,
+      "source": "HDRip",
+      "resolution": "1080p",
+      "minSizeMB": 700,
+      "maxSizeMB": 1800,
+      "score": 90
+    },
+    {
+      "id": 204,
+      "source": "BluRay",
+      "resolution": "any",
+      "minSizeMB": 0,
+      "maxSizeMB": 0,
+      "score": 0
+    },
+    {
+      "id": 205,
+      "source": "Remux",
+      "resolution": "any",
+      "minSizeMB": 0,
+      "maxSizeMB": 0,
+      "score": 0
+    }
+  ]
 }
